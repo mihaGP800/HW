@@ -1,0 +1,12 @@
+.greeting {
+    margin-left: 10px;
+}
+
+
+.someClass {
+    border: 2px solid green;
+}
+
+.error {
+    border: 2px solid red;
+}
