@@ -18,12 +18,12 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.0"
   },
+  "homepage": "https://mihagp800.github.io/HW/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage":"https://mihagp800.github.io/HW/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
