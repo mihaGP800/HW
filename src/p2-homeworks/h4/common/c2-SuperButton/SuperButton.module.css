@@ -24,17 +24,20 @@
 }
 
 .red {
+    width: 50px;
+    height: 30px;
     margin: 3px;
     position: relative;
     display: inline-block;
     font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
-    font-size: 1.5em;
-    font-weight: 700;
+    font-size: 1em;
+    font-weight: 200;
     color: rgb(245,245,245);
     text-shadow: 0 -1px rgba(0,0,0,.1);
     text-decoration: none;
+
     user-select: none;
-    padding: .3em 1em;
+    /*padding: .3em 1em;*/
     outline: none;
     border: none;
     border-radius: 3px;
