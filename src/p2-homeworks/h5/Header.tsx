@@ -8,7 +8,7 @@ import s from './Header.module.css'
 function Header() {
     return (
         <div>
-            <NavLink to={PATH.PRE_JUNIOR} >pre-junior </NavLink>
+            <NavLink to={PATH.PRE_JUNIOR} className={s.action}>pre-junior </NavLink>
             <NavLink to={PATH.JUNIOR}>junior </NavLink>
             <NavLink to={PATH.JUNIOR_PLUS}>junior-plus</NavLink>
             <NavLink to={PATH.JUNIOR}>junior </NavLink>
