@@ -6,12 +6,17 @@
     transform: translate(-300px);
 }
 
+.header:hover .text {
+    opacity: 0;
+}
+
 .header:hover {
     transition-duration: 0.7s;
     transform: translate(0px);
 }
 
-.text{
+
+.text {
     font-weight: bold;
     display: flex;
     width: 200px;
