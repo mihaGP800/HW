@@ -1,6 +1,42 @@
-.action{
+.header {
+    display: flex;
 
+    background-color: chartreuse;
+    transition-duration: 0.7s;
+    transform: translate(-300px);
 }
-.action{
 
+.header:hover {
+    transition-duration: 0.7s;
+    transform: translate(0px);
+}
+
+.text{
+    font-weight: bold;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.active {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gold;
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: radial-gradient(darkgray, #282c34);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.passive {
+    color: white;
+    border: 2px solid black;
+    background-image: radial-gradient(darkgray, #282c34)
 }
