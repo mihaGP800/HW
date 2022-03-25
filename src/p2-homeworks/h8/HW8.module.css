@@ -1,23 +1,30 @@
+.header{
+    width: 200px;
+    border:2px solid rgba(0, 0, 0, 0.45);
+}
+
 .table {
     display: flex;
     flex: 1 1 20%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .name {
     display: flex;
-    flex: 1 1 10%;
-    text-align: start;
+    flex: 0 1 55%;
+    justify-content: flex-start;
+    padding-left: 5px;
     background-color: rgba(105, 105, 105, 0.43);
 }
 
 .age {
     display: flex;
-    justify-content: stretch;
-    flex: 1 1 35%;
+    justify-content: center;
+    flex: 0 1 40%;
     background-color: rgba(119, 136, 153, 0.82);
 }
 
 .button{
     display: flex;
+    justify-content: space-around;
 }

@@ -39,12 +39,13 @@ function HW8() {
             homeworks 8
 
             {/*should work (должно работать)*/}
-            {finalPeople}
+            <div  className={s.header}>{finalPeople}
 
-            <div className={s.button}>
-                <SuperButton onClick={sortUp} default1>sort up</SuperButton>
-                <SuperButton onClick={sortDown} default1>sort down</SuperButton>
-                <SuperButton onClick={check18} default1>check 18</SuperButton>
+                <div className={s.button}>
+                    <SuperButton onClick={sortUp} default1>sort up</SuperButton>
+                    <SuperButton onClick={sortDown} default1>sort down</SuperButton>
+                    <SuperButton onClick={check18} default1>check 18</SuperButton>
+                </div>
             </div>
             <hr/>
             {/*для личного творчества, могу проверить*/}
