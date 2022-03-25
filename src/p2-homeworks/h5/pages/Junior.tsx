@@ -4,7 +4,7 @@ import HW8 from '../../h8/HW8';
 
 export const Junior = () => {
     return (
-        <div>
+        <div style={{marginLeft: '10px'}}>
             <HW7/>
             <HW8/>
         </div>
