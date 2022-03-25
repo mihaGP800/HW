@@ -12,7 +12,7 @@ const Message: React.FC<MessageType> = (props) => {
     return (
         <div className={s.messageBlock}>
             <img className={s.avatar} src={props.avatar} alt=""/>
-            <div className={s.single}></div>
+            <div className={s.single}/>
             <div className={s.complexText}>
                 <div className={s.name}>{props.name}</div>
                 <div className={s.message}>{props.message}</div>
