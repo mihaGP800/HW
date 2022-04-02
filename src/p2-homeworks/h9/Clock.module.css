@@ -1,0 +1,11 @@
+.timeDateBlock{
+    height: 45px;
+    width: 200px;
+    padding: 0 5px;
+    background-color: var(--color);
+    font-weight: bold;
+    color: white ;
+}
+.buttonBlock{
+    display: flex;
+}

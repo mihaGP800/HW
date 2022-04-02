@@ -3,7 +3,7 @@ import {homeWorkReducer} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import s from './HW8.module.css'
 
-export type UserType ={
+export type UserType = {
     _id: number
     name: string
     age: number
@@ -39,8 +39,7 @@ function HW8() {
             homeworks 8
 
             {/*should work (должно работать)*/}
-            <div  className={s.header}>{finalPeople}
-
+            <div className={s.header}>{finalPeople}
                 <div className={s.button}>
                     <SuperButton onClick={sortUp} default1>sort up</SuperButton>
                     <SuperButton onClick={sortDown} default1>sort down</SuperButton>
