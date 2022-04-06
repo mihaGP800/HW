@@ -1,10 +1,12 @@
 import React, {useState} from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import s from './Clock.module.css'
+import moment from 'moment';
+
 
 function Clock() {
     const [timerId, setTimerId] = useState<number>(0)
-    const [date, setDate] = useState<Date>()
+    const [date, setDate] = useState<any>()
     const [show, setShow] = useState<boolean>(false)
 
     const stop = () => {
@@ -14,7 +16,7 @@ function Clock() {
     const start = () => {
         stop()
         const id: number = window.setInterval(() => {
-            setDate(new Date())
+            setDate(moment())
             // setDate
         }, 10)
         setTimerId(id)
@@ -27,8 +29,8 @@ function Clock() {
         setShow(false)// close
     }
 
-    const stringTime = date && date.getMilliseconds()// fix with date
-    const stringDate = date && date.toLocaleDateString() // fix with date
+    const stringTime =date?.format('SSS')// fix with date
+    const stringDate = date?.format('L') // fix with date
 
     return (
         <div>
