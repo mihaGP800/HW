@@ -11,6 +11,7 @@ function HW11() {
 
     const onChangeRange = (value: number) => {
         setValue1(value)
+        setValue([value,valueDouble[1]])
     }
     const onChangeDoubleRange = (value: number[]) => {
         setValue(value)
