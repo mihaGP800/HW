@@ -1,0 +1,6 @@
+.doubleRange {
+    margin-top: 30px;
+    display: flex;
+    width: 300px;
+    gap: 5px;
+}
