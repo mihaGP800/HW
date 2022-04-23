@@ -1,8 +1,10 @@
 import { combineReducers, createStore } from 'redux'
 import {loadingReducer} from './loadingReducer'
+import {changeColorReducer} from './changeColor-reducer';
 
 const reducers = combineReducers({
     loading: loadingReducer,
+    theme: changeColorReducer
 
 })
 

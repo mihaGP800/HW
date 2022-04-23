@@ -21,3 +21,10 @@
 .some-text {
     color: darkslateblue;
 }
+.yellow {
+    background: #eed890;
+}
+
+.yellow-text {
+    color: #3dc020;
+}
